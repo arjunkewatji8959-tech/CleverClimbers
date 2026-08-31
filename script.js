@@ -23,5 +23,26 @@ async function postForm(form, endpoint){
   }catch(e){msg.textContent=e.message}
   finally{btn.disabled=false;btn.textContent=form.classList.contains("comment-form")?"Submit Comment":"Submit";}
 }
-const contactForm=document.querySelector("#contactForm"); if(contactForm) contactForm.addEventListener("submit",e=>{e.preventDefault();postForm(e.currentTarget,"/api/contact")});
+const contactForm=document.querySelector("#contactForm");
+if(contactForm){
+  contactForm.addEventListener("submit",function(e){
+    e.preventDefault();
+
+    const data=Object.fromEntries(new FormData(contactForm).entries());
+    const to="Cleverclimberindia@gmail.com";
+    const subject="CleverClimbers Website Enquiry - "+(data.name||"Visitor");
+    const body=
+      "Name: "+(data.name||"")+"\n"+
+      "Email: "+(data.email||"")+"\n"+
+      "Phone: "+(data.phone||"")+"\n"+
+      "Message: "+(data.message||"");
+
+    const mailto="mailto:"+to+
+      "?subject="+encodeURIComponent(subject)+
+      "&body="+encodeURIComponent(body);
+
+    // Opens the visitor's configured email app (Gmail/Outlook/etc.)
+    window.location.href=mailto;
+  });
+}
 document.querySelectorAll(".comment-form").forEach(f=>f.addEventListener("submit",e=>{e.preventDefault();postForm(e.currentTarget,"/api/comments")}));
