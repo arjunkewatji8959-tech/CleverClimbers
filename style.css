@@ -244,18 +244,3 @@ a,.btn,button{touch-action:manipulation;-webkit-tap-highlight-color:transparent}
   .gallery-page-img{height:145px!important}
   .shed-gallery img,.shed-gallery figure img{height:160px!important;max-height:160px}
 }
-
-
-/* Mobile refinements: compact images and single-line section labels */
-@media(max-width:720px){
-  .service-card img{height:170px!important;object-fit:cover}
-  .gallery img{height:180px!important;object-fit:cover}
-  .article-card img{height:165px!important;object-fit:cover}
-  .article-page-card img{height:180px!important;object-fit:cover}
-  .detail-wrap img{max-height:300px!important;object-fit:cover}
-  .section-intro .eyebrow.dark,
-  .work-panel .eyebrow.dark{white-space:nowrap;font-size:9px;letter-spacing:1.5px;margin-bottom:10px}
-  .section-intro h2,.work-panel h3{font-size:clamp(24px,7vw,32px);line-height:1.15}
-  .contact-email{display:inline-block;color:var(--accent);font-weight:700;text-decoration:underline}
-  .email-direct{margin:10px 0 18px}
-}
