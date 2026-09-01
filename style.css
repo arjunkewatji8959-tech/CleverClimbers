@@ -115,6 +115,10 @@ a,.btn,button{touch-action:manipulation;-webkit-tap-highlight-color:transparent}
     align-items: center;
     gap: 30px;
 }
+.logo span {
+    font-weight: 700;
+    color: #123b6d;
+}
 @media (max-width: 768px) {
     .navbar {
         padding: 10px 15px;
