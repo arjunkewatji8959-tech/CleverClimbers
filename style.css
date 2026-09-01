@@ -109,6 +109,10 @@ a,.btn,button{touch-action:manipulation;-webkit-tap-highlight-color:transparent}
     object-fit: contain;
     display: block;
 }
+.logo-text {
+    margin-left: 10px;
+    font-weight: 700;
+}
 
 .nav-links {
     display: flex;
