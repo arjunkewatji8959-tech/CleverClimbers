@@ -104,8 +104,8 @@ a,.btn,button{touch-action:manipulation;-webkit-tap-highlight-color:transparent}
 }
 
 .logo img {
-    width: 65px;
-    height: 65px;
+    width: 50px;
+    height: 50px;
     object-fit: contain;
     display: block;
 }
@@ -129,9 +129,9 @@ a,.btn,button{touch-action:manipulation;-webkit-tap-highlight-color:transparent}
         height: 48px;
     }
 
-    .nav-links {
-        gap: 12px;
-        font-size: 13px;
+    .logo-text {
+        font-size: 18px;
+        font-weight: 700;
     }
 }
 .brand{min-width:0;white-space:nowrap}
