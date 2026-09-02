@@ -76,7 +76,7 @@ app.post('/api/comments', (req, res) => {
 // SPA-style fallback only for normal page requests, never for missing assets/API.
 app.use((req, res, next) => {
   if (req.method !== 'GET' || req.path.startsWith('/api/')) return next();
-  res.status(404).sendFile(path.join(PUBLIC_DIR, '404.html'));
+  res.sendFile(path.join(PUBLIC_DIR, 'index.html'));
 });
 
 app.use((err, _req, res, _next) => {

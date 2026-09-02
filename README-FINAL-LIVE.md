@@ -37,6 +37,3 @@ Contact enquiries and article comments are currently written to `data/submission
 
 ## Flattened live structure
 All website files, CSS, JavaScript and images are kept in one root folder for simple GitHub/Render deployment.
-
-
-DIRECTOR IMAGE FIX (2026-09-01): The director photo card now uses the original 1023x1537 aspect ratio with object-fit: contain so the complete image remains visible without cropping on desktop and mobile.

@@ -89,50 +89,6 @@ a,.btn,button{touch-action:manipulation;-webkit-tap-highlight-color:transparent}
 .btn{min-height:46px}
 .nav a{min-height:44px;display:flex;align-items:center}
 .site-header{width:100%}
-
-.navbar {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 12px 30px;
-}
-
-/* Logo + Company Name */
-.logo {
-    display: flex;
-    align-items: center;
-    gap: 14px;              /* logo aur text ke beech gap */
-}
-
-.logo img {
-    width: 58px;            /* logo chhota */
-    height: 58px;
-    object-fit: contain;
-}
-
-.logo-text {
-    font-size: 22px;
-    font-weight: 800;       /* bold */
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
-    white-space: nowrap;
-}
-@media (max-width: 600px) {
-    .logo {
-        gap: 8px;
-    }
-
-    .logo img {
-        width: 42px;
-        height: 42px;
-    }
-
-    .logo-text {
-        font-size: 15px;
-        font-weight: 800;
-        letter-spacing: 0.3px;
-    }
-}
 .brand{min-width:0;white-space:nowrap}
 .brand>span:last-child{overflow:hidden;text-overflow:ellipsis}
 .hero-content{width:min(650px,82%)}
@@ -355,3 +311,17 @@ a,.btn,button{touch-action:manipulation;-webkit-tap-highlight-color:transparent}
 @media(max-width:1050px){.client-grid{grid-template-columns:repeat(3,minmax(0,1fr))}}
 @media(max-width:720px){.client-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.client-card{min-height:105px;padding:16px}.client-card div{font-size:13px}}
 @media(max-width:430px){.client-grid{grid-template-columns:1fr}}
+
+
+/* Final CleverClimbers branding */
+.brand{display:flex;align-items:center;gap:12px;min-width:0;white-space:nowrap;font-weight:800;text-decoration:none;}
+.brand-logo{width:52px;height:52px;object-fit:contain;display:block;flex:0 0 52px;}
+.brand-name{font-weight:800!important;font-size:20px;letter-spacing:.2px;color:var(--ink);text-transform:uppercase;line-height:1;}
+.footer-brand .brand-logo{width:48px;height:48px;flex-basis:48px;}
+.footer-brand .brand-name{color:#fff;}
+@media(max-width:720px){
+  .brand{gap:9px;}
+  .brand-logo{width:42px;height:42px;flex-basis:42px;}
+  .brand-name{font-size:15px;}
+  .footer-brand .brand-logo{width:40px;height:40px;flex-basis:40px;}
+}
