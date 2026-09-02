@@ -46,3 +46,17 @@ table{width:100%;border-collapse:collapse;min-width:680px}th,td{text-align:left;
 .cookie-modal{position:fixed;inset:0;background:rgba(0,0,0,.55);z-index:110;display:none;place-items:center;padding:20px}.cookie-modal.show{display:grid}.modal-card{width:min(430px,100%);background:#fff;border-radius:14px;padding:26px;position:relative}.modal-card h2{font-size:27px;margin-bottom:8px}.modal-card>p{font-size:13px;color:var(--muted);margin-bottom:18px}.modal-card label{display:block;border-top:1px solid var(--line);padding:13px 0;font-size:13px}.modal-card label small{display:block;color:var(--muted);margin-left:23px}.modal-close{position:absolute;right:15px;top:10px;border:0;background:none;font-size:27px;cursor:pointer}.modal-actions{margin-top:18px}
 @media(max-width:900px){.hero-grid{grid-template-columns:1fr}.director-card{max-width:430px}.cards{grid-template-columns:repeat(2,1fr)}.footer-grid{grid-template-columns:1fr 1fr}.choose{grid-template-columns:1fr}}
 @media(max-width:600px){.nav{min-height:62px}.brand-mark{width:35px;height:35px}.nav-back{font-size:12px}.hero{padding:42px 0}.hero-grid{gap:30px}h1{font-size:40px}.lead{font-size:15px}.director-photo{min-height:0}.section,.section.compact{padding:40px 0}.cards,.benefits,.applications,.footer-grid{grid-template-columns:1fr}.cards{gap:11px}.card{padding:17px}.cta-inner{display:block}.cta .btn{margin-top:20px}.cookie{left:10px;right:10px;bottom:10px;display:block}.cookie-actions{margin-top:10px}.cookie button{flex:1}.cctv-float{right:15px;bottom:78px;width:50px;height:50px}.cctv-float span{display:none}}
+
+
+/* Unified CleverClimbers header branding */
+.topbar .brand{display:flex;align-items:center;gap:14px;font-weight:900;text-decoration:none;white-space:nowrap;}
+.topbar .brand-logo{width:50px;height:50px;object-fit:contain;display:block;flex:0 0 50px;}
+.topbar .brand-name{font-weight:900!important;font-size:20px;letter-spacing:.35px;text-transform:uppercase;color:var(--navy);line-height:1;}
+.footer .footer-brand{display:flex;align-items:center;gap:14px;}
+.footer .footer-brand .brand-logo{width:46px;height:46px;object-fit:contain;}
+.footer .footer-brand .brand-name{font-weight:900!important;text-transform:uppercase;}
+@media(max-width:600px){
+  .topbar .brand{gap:10px;}
+  .topbar .brand-logo{width:42px;height:42px;flex-basis:42px;}
+  .topbar .brand-name{font-size:15px;font-weight:900!important;}
+}
