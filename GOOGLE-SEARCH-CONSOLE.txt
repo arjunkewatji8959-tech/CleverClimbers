@@ -1,0 +1,10 @@
+CleverClimbers Google indexing checklist
+
+1. Upload this website to cleverclimberindia.com.
+2. In Google Search Console, add https://cleverclimberindia.com/ as a property.
+3. Complete Google's verification using the method Google provides.
+4. Submit: https://cleverclimberindia.com/sitemap.xml
+5. Use URL Inspection for https://cleverclimberindia.com/ and request indexing.
+6. Also inspect important pages such as /about.html and /industrial-shed.html.
+
+Important: Google indexing cannot be guaranteed by HTML alone; the site must be publicly accessible, crawlable, and verified/submitted in Search Console.
