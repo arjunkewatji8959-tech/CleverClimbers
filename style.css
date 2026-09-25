@@ -164,11 +164,11 @@ a,.btn,button{touch-action:manipulation;-webkit-tap-highlight-color:transparent}
   .detail-wrap{padding:58px 18px}
   .detail-wrap img{max-height:360px;border-radius:14px}
   .detail-hero{min-height:440px}
-  .detail-grid,.shed-lead{grid-template-columns:1fr!important;gap:28px}
+  .detail-grid,.shade-lead{grid-template-columns:1fr!important;gap:28px}
   .detail-main{padding:60px 18px}
-  .shed-section{padding:60px 18px}
+  .shade-section{padding:60px 18px}
   .types-grid,.benefits-grid,.applications-grid{grid-template-columns:1fr;gap:16px}
-  .shed-gallery{grid-template-columns:1fr!important}
+  .shade-gallery{grid-template-columns:1fr!important}
   .spec-wrap{margin-inline:-2px}
   .contact-lines{margin-top:25px}
   .two{grid-template-columns:1fr}
@@ -195,7 +195,7 @@ a,.btn,button{touch-action:manipulation;-webkit-tap-highlight-color:transparent}
   .article-page-card .article-card-body{padding:18px}
   .article-page-card h2{font-size:22px}
   .detail-wrap{padding-inline:14px}
-  .detail-main,.shed-section{padding-inline:14px}
+  .detail-main,.shade-section{padding-inline:14px}
 }
 
 @media (max-width:360px){
@@ -231,8 +231,8 @@ a,.btn,button{touch-action:manipulation;-webkit-tap-highlight-color:transparent}
   .detail-img{width:100%;height:180px!important;max-height:180px;object-fit:cover;border-radius:10px}
   .gallery-page-img{height:155px!important}
   .gallery-page-img img{height:100%!important;object-fit:cover}
-  .shed-hero{min-height:500px!important;background-position:center center;background-size:cover}
-  .shed-gallery img,.shed-gallery figure img{width:100%;height:170px!important;max-height:170px;object-fit:cover}
+  .shade-hero{min-height:500px!important;background-position:center center;background-size:cover}
+  .shade-gallery img,.shade-gallery figure img{width:100%;height:170px!important;max-height:170px;object-fit:cover}
   .chat,.whatsapp-float{width:52px!important;height:52px!important;font-size:24px!important;right:14px!important;bottom:14px!important}
 }
 @media (max-width: 420px){
@@ -242,7 +242,7 @@ a,.btn,button{touch-action:manipulation;-webkit-tap-highlight-color:transparent}
   .detail-wrap img{max-height:190px}
   .detail-img{height:170px!important;max-height:170px}
   .gallery-page-img{height:145px!important}
-  .shed-gallery img,.shed-gallery figure img{height:160px!important;max-height:160px}
+  .shade-gallery img,.shade-gallery figure img{height:160px!important;max-height:160px}
 }
 
 
