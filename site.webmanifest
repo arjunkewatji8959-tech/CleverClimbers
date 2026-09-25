@@ -1,0 +1,11 @@
+{
+  "name": "CleverClimbers India Pvt. Ltd.",
+  "short_name": "CleverClimbers",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#0b2f63",
+  "icons": [
+    {"src":"/favicon.png","sizes":"512x512","type":"image/png","purpose":"any maskable"}
+  ]
+}
