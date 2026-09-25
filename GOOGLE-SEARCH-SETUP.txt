@@ -1,0 +1,27 @@
+GOOGLE SEARCH + LOGO SETUP
+==========================
+
+This project now includes:
+- favicon.ico and favicon.png from the CleverClimbers logo
+- favicon links on HTML pages
+- Organization JSON-LD with the official logo URL
+- robots.txt with sitemap URL
+- sitemap.xml
+- canonical and Open Graph metadata on the homepage
+
+IMPORTANT:
+Google does not guarantee that a favicon/logo will appear immediately in search results.
+The website must be live, crawlable and indexed. Google chooses when and where to show it.
+
+AFTER UPLOAD / DEPLOYMENT:
+1. Open Google Search Console: https://search.google.com/search-console/
+2. Add/verify the property: https://cleverclimberindia.com/
+3. Open Sitemaps and submit: sitemap.xml
+4. Open URL Inspection.
+5. Enter: https://cleverclimberindia.com/
+6. Click Request Indexing.
+7. Repeat URL Inspection for important pages if needed.
+8. Keep the favicon at the website root and do not block it in robots.txt.
+
+For the favicon, Google recommends a crawlable square icon. This package contains a 512x512 PNG and ICO.
+Search appearance can take time; requesting indexing is not a guarantee of immediate inclusion.
